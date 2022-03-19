@@ -1,7 +1,5 @@
 import { useState, useEffect } from 'react';
-import { propTypes } from 'react-bootstrap/esm/Image';
 import TripList from '../components/trips/TripList';
-import styles from '../index.css';
 
 function AllTripsPage() {
     const [isLoading, setIsLoading] = useState(true);
@@ -55,7 +53,7 @@ function AllTripsPage() {
 
 export default AllTripsPage;
 
-    /* const runThisEveryTime = (() => { //this is the code Lisa sent me. I couldn't get it to work.
+/* const runThisEveryTime = (() => { //this is the code Lisa sent me. I couldn't get it to work.
         fetch('https://video-poker-app-default-rtdb.firebaseio.com/trips.json')
         .then( res =>res.json() )
         .then(

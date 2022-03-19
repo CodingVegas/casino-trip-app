@@ -17,6 +17,7 @@ function TripItem(props) {
                  'Content-Type': 'application/json'
              }
         }).then(() => {
+            window.location.reload(false);
             //this.forceUpdate();
             //this.props.handleDelete(props.id);
             //navigate('/', {replace: true });

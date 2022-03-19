@@ -1,41 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&display=swap');
 
 * {
     box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
   }
   
   body {
-    font-family: 'Montserrat', sans-serif;
     margin: 3rem;
-    background-color:rgb(97, 97, 97);
    
   }
   
   h1, h2 {
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-  }
-  
-  .btn {
-    font: inherit;
-    padding: 0.5rem 1.5rem;
-    cursor: pointer;
-    border-radius: 4px;
-    background-color: #800040;
-    color: white;
-    border: 1px solid #800040;
-    margin: 0 1rem;
-  }
-  
-  .card {
-    background-color: rgb(38, 44, 102);
-    border-radius: 4px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    width: 20rem;
-  }
-  
-  .actions {
-    text-align: right;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    color: #16161d;
   }
   
